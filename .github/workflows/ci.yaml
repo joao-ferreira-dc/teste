@@ -1,0 +1,13 @@
+name: GitHub Actions Test
+on: 
+  push:
+    branches:
+      - 'release/**'
+
+jobs:
+  my-first-jon:
+    runs-on: ubuntu-latest
+    steps:
+      - name: hello
+        run: |
+          echo "Hello world"
