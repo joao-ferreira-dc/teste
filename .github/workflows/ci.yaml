@@ -5,8 +5,9 @@ jobs:
   my-first-jon:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - name: hello
-        run: echo "Hello world"
+        run: echo "Hello world!"
       - name: runpython
         run: |
           pip install -r requirements.txt
