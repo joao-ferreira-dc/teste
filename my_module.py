@@ -1,2 +1,4 @@
+import math
+
 def my_function(x):
-  return x*x+3
+  return math.pow(x,2)
