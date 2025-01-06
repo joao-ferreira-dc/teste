@@ -1,2 +1,2 @@
 def my_function(x):
-  return x*x
+  return x*x+3
